@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+        table{
+            position:absolute;
+            background-color:#7b0335cc;
+            color:white;
+            font-family:Arial;
+            padding-left: 50px;
+            padding-right:50px;
+            padding-top:15px;
+            padding-bottom:15px;
+            width:50%;
+            height:75%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align:left;
+            justify-content: center;
+        }
+        textarea::placeholder{
+            font-family:Arial;
+        }
+        button{
+            background-color:white;
+            color:black;
+            font-family:Arial;
+            font-size:22px;
+            margin-left:55px;
+            width:75%;
+            height:75%;
+            border-radius:10px;
+            border-color:white;
+            padding:8px 0;
+        }
+        label{
+            padding-left:30%;
+        }
+    </style>
+</head>
+
+<body style="background-color:#ad054bcc">
+    <h2><a href="index.html">INDEX PAGE</a></h2>
+    <div class="c1">
+            <form style="justify-content:center;">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" placeholder="your name" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Email:</label></td>
+                        <td><input type="email" name="mail" placeholder="your email" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password:</label></td>
+                        <td><input type="password" name="pass" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phno">Phone Number:</label></td>
+                        <td><input type="text" name="phno" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gen">Gender:</label></td>
+                        <td>
+                            Male:<input type="radio" name="gen">
+                            Female:<input type="radio" name="gen">
+                            Other:<input type="radio" name="gen">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="lang">laguage:</label></td>
+                        <td><select>
+                            <option>Select language</option>
+                            <option>Japanese</option>
+                            <option>Kannada</option>
+                            <option>Tamil</option>
+                            <option>French</option>
+                            <option>Spanish</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zip">Zip Code:</label></td>
+                        <td><input type="text" name="zip" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="about">About:</label></td>
+                        <td><textarea rows="3" cols="25" placeholder="Write about yourself..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit"><b>Register</b></td>
+                    </tr>
+                </table>
+            </form>
+    </div>
+</body>
+
+</html>
